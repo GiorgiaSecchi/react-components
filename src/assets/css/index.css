@@ -4,6 +4,15 @@ body {
   background-color: gainsboro;
 }
 
+img {
+  max-width: 100%;
+}
+
 /* HEADER */
+
 /* MAIN */
+.card {
+  width: 600px;
+}
+
 /* FOOTER */
