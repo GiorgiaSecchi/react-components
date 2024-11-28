@@ -1,3 +1,5 @@
+import Button from "./Button";
+
 export default function Card() {
   return (
     <div className="col">
@@ -18,9 +20,7 @@ export default function Card() {
             laboriosam quisquam, fugiat animi vitae temporibus veritatis
             deleniti minima in officia totam atque.
           </p>
-          <button className="button" href="#">
-            LEGGI DI PIÙ
-          </button>
+          <Button />
         </div>
       </div>
     </div>
