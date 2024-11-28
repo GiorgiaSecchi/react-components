@@ -1,7 +1,9 @@
-/* QUI REGOLE DI STILE GLOBALI */
+/* INDEX.CSS --> QUI REGOLE DI STILE GLOBALI */
 
-/* * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} */
+body {
+  background-color: gainsboro;
+}
+
+/* HEADER */
+/* MAIN */
+/* FOOTER */
