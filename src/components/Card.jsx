@@ -11,7 +11,7 @@ export default function Card() {
         />
         <div className="card-body">
           <h5 className="card-title">Titolo del post</h5>
-          <p className="card-text">
+          <p className="card-text lh-sm">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
             Doloremque, quae? Nemo, facilis? Amet facilis, ipsa quidem repellat
             optio quaerat adipisci eum fugit itaque deleniti a aperiam libero
