@@ -4,21 +4,27 @@ export default function Main() {
       <div className="container">
         <div className="row row-cols-1">
           <div className="col">
-            <div className="card mx-auto">
+            <div className="card mx-auto shadow rounded-4">
               <img
                 src="src\assets\img\600x400.jpg"
-                className="card-img-top"
+                className="card-img-top rounded-top-4"
                 alt="..."
               />
               <div className="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">
-                  Some quick example text to build on the card title and make up
-                  the bulk of the card's content.
+                <h5 className="card-title">Titolo del post</h5>
+                <p className="card-text">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Doloremque, quae? Nemo, facilis? Amet facilis, ipsa quidem
+                  repellat optio quaerat adipisci eum fugit itaque deleniti a
+                  aperiam libero alias nobis ab! Dolores, dolor nemo eos impedit
+                  perferendis eum atque quas, unde maiores nisi in tempora
+                  deserunt! Ducimus minus laboriosam quisquam, fugiat animi
+                  vitae temporibus veritatis deleniti minima in officia totam
+                  atque.
                 </p>
-                <a href="#" class="btn btn-primary">
-                  Go somewhere
-                </a>
+                <button className="button" href="#">
+                  LEGGI DI PIÙ
+                </button>
               </div>
             </div>
           </div>
