@@ -4,6 +4,12 @@ body {
   background-color: gainsboro;
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 img {
   max-width: 100%;
 }
@@ -11,14 +17,14 @@ img {
 /* HEADER */
 
 h1 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 /* MAIN */
 
 .card {
-  width: 600px;
+  max-width: 600px;
 }
 
 .button {
@@ -34,10 +40,11 @@ h1 {
 footer {
   background-color: rgb(61, 61, 61);
   color: white;
-  min-height: 11rem;
-  margin-top: 5rem;
+  margin-top: auto;
+  text-align: center;
+  padding: 2rem 0;
+}
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+p {
+  margin: 0;
 }
